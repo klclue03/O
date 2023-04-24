@@ -1,0 +1,181 @@
+body {
+    background: #1a2a32;
+}
+
+.card1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 25vh;
+    width: 115vh;
+    min-width: 115vh;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 2.5em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    opacity: 0.85;
+}
+
+.title {
+    text-align: center;
+}
+
+.description {
+    font-size: large;
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 10vh;
+    width: 40vh;
+    min-width: 40vh;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 3em;
+    margin: auto;
+    margin-bottom: 2em;
+    opacity: 0.85;
+}
+
+.scores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.scoreboard-name, .scoreboard-score {
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboard-name {
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.scoreboard-score {
+    font-size: 2em;
+}
+
+.card3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    min-height: 3em;
+    width: 130vh;
+    overflow: hidden;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    opacity: 0.85;
+    transition: all .5s linear;
+}
+
+.card3:hover {
+    transform: scale(1.1);
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card4 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    height: 7em;
+    width: 30em;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    opacity: 0.85;
+}
+
+.choices {
+    font-weight: bold;
+}
+
+.choice {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    transition: all 0.4s linear;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: lightslategrey;
+}
+  
+.choice:active {
+    transform: scale(0.8);
+}
+
+.card5 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    width: 115vh;
+    min-width: 115vh;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 1em;
+    padding-bottom: 30px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    opacity: 0.85;
+}
+
+.diagram {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: block;
+}
